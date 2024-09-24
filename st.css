@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: grey;
+
+}
+
+.sdbar{
+    width: 200px;
+    background: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 10px;
+}
+
+.sdnav .logo{
+    width: 120px;
+    font-size: 90px;
+
+}
+.sdnav .logo img{
+    width: 100%;
+  
+    
+}
+
+.sdnav ul  {
+    list-style: none;
+   
+}
+
+.sdnav ul li{
+    padding: 8px 10px;
+}
+.sdnav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+}
+
+.sdnav ul li a i{
+    padding: 0px 10px;
+
+}
+
+.logo .u2 ul{
+    margin-top: 10px 20px
+}
+
+
+.sdnav .u2 ul li a img{
+    font-size: 5px;
+}
+
+.u2 ul li a {
+    padding: 10px 10px;
+}
+
+.sdnav .u2 ul li a j{
+    letter-spacing: 10px;
+}
+#fav{
+    margin-top: 20px;
+}
+
+.sdnav .u3 {
+    margin-top: 80px;
+}
+
+.sdnav u4{
+    margin-top: 30px;
+}
+
+.main_sec {
+    margin-left: 200px;
+    height: 100vh;
+    background: rgb(53,52,52);
+}
+.main_sec .topnav {
+    padding: 20px 30px ;
+    background: rgb(37,35,35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_sec .topnav button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.main_sec.topnav .preview button i{
+    color: rgb(122,117,117);
+    font-size: 22px;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+.topnav .join .login{
+    border: 0;
+    outline: 0;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    font-size: small;
+    margin-right: 10px ;
+}
+.topnav.singup{
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 10px 10px ;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.playlist{
+    padding: 20px 40px;
+}
+.playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.playlist .card{
+    display: flex;
+    overflow:hidden;
+    gap: 20px;
+}
+.playlist .card .item{
+    width: 160px;
+    min-width: 140px;
+    background-color: rgb(39,38,38);
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 15px;
+}
+.playlist .card .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-right: 10px;
+}
